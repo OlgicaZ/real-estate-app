@@ -1,0 +1,58 @@
+@use './../../partials/mixins' as *;
+@use './../../partials/colors' as *;
+
+.header {
+    background-color: $black;
+    color: $white;
+    height: 13vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 20%;
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 10vh;
+        }
+    }
+
+    &__nav {
+
+        @include desktop {
+            width: 80%;
+        }
+
+        ul {
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__list-item {
+        list-style-type: none;
+        padding-right: 1.5rem;
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-weight: 600;
+        }
+
+        .active {
+            color: $brick;
+        }
+    }
+}

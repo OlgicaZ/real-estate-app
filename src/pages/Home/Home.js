@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <h1>Real estate App</h1>
+      <h1>Content</h1>
     </>
   );
 }
