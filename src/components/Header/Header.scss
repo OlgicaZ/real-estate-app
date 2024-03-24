@@ -1,58 +1,60 @@
-@use './../../partials/mixins' as *;
-@use './../../partials/colors' as *;
+@use "./../../partials/mixins" as *;
+@use "./../../partials/colors" as *;
 
 .header {
-    background-color: $black;
-    color: $white;
-    height: 13vh;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: $black-transparent;
+  color: $white;
+  height: 9vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    @include desktop {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  &__logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 8vh;
+    }
+  }
+
+  &__nav {
+    width: 90%;
+
+    ul {
+      width: 100%;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  &__list-item {
+    height: 100%;
+    list-style-type: none;
+    padding-right: 1.8rem;
+    border: none;
+
+    &:last-child {
+      padding-right: 0;
     }
 
-    &__logo {
-        width: 20%;
-        display: flex;
-        align-items: center;
-
-        img {
-            height: 10vh;
-        }
+    a {
+      text-decoration: none;
+      color: $white;
+      font-weight: 400;
     }
 
-    &__nav {
-
-        @include desktop {
-            width: 80%;
-        }
-
-        ul {
-            padding: 0;
-            display: flex;
-            justify-content: flex-end;
-        }
+    .active {
+      color: $brick;
+      font-weight: 500;
     }
-
-    &__list-item {
-        list-style-type: none;
-        padding-right: 1.5rem;
-
-        &:last-child {
-            padding-right: 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: $white;
-            font-weight: 600;
-        }
-
-        .active {
-            color: $brick;
-        }
-    }
+  }
 }
