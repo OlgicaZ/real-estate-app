@@ -1,8 +1,15 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import NoPage from "./pages/NoPage/NoPage";
+
 function App() {
   return (
-    <div className="App">
-      Real Estate App
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Home /> }/>
+        <Route path="*" element={ <NoPage /> }/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
