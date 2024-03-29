@@ -26,7 +26,7 @@ export default function Header() {
         <ul>
           {navOptions.map((item) => (
             <li className="header__list-item" key={item.id}>
-              <NavLink to={`/${item.path}`} activeClassName="active">
+              <NavLink to={`/${item.path}`}>
                 {item.name}
               </NavLink>
             </li>

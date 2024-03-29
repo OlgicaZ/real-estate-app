@@ -1,0 +1,102 @@
+@use './../../partials/colors' as *;
+
+.about {
+    background-image: url('./../../assets/images/water-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-10vh);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 80%;
+            height: 30vh;
+            min-height: fit-content;
+            padding: 5% 8%;
+            border-radius: 1.25rem;
+            box-shadow: $shadow;
+            text-align: center;
+            margin-bottom: 5%;
+            background: rgba(255, 255, 255, 0.3);
+
+
+            h2 {
+                font-size: 2.2rem;
+                padding-bottom: 1%;
+            }
+
+            h3 {
+                font-size: 1.45rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__more-button {
+        cursor: pointer;
+        border: .1875rem solid $black;
+        padding: 1.25rem 2.5rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}
+
+.services {
+    transform: translateY(-10vh);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+
+    &__buy {
+        background-image: url('https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/165e1db5-7891-4dd2-b57b-bac486d70b29/shutterstock_1688557318%60.png?format=2500w');
+    }
+
+    &__sell {
+        background-image: url('https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/d91a89c1-b591-402e-a6cb-b4adacb82298/shutterstock_2022462155+%282%29.png?format=2500w');
+    }
+
+    &__valuation {
+        background-image: url('https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/630b6d4c-e1b6-46ea-8bbb-3d0b142b8dc2/shutterstock_1673456551+%281%29.jpg?format=2500w');
+    }
+
+    div {
+        width: 32%;
+        height: 29vh;
+        margin: 0 .9375rem;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        &::before {
+            z-index: 1;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            z-index: 3;
+            padding: .625rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: $white;
+        }
+    }
+}
