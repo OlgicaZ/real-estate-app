@@ -1,3 +1,5 @@
+@use './colors' as *;
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -58,4 +60,19 @@ button {
     font-size: 1.9rem;
     font-weight: 500;
     margin-bottom: 4%;
+    text-transform: capitalize;
+    width: fit-content;
+    padding: .625rem;
+
+    &--black {
+        color: $black;
+        border-top: .1875rem solid $black;
+        border-bottom: .1875rem solid $black;
+    }
+
+    &--white {
+        color: $white;
+        border-top: .1875rem solid $white;
+        border-bottom: .1875rem solid $white;
+    }
 }

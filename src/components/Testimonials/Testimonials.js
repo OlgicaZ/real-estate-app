@@ -12,7 +12,7 @@ import StarRating from '../StarRating/StarRating';
 export default function Testimonials() {
     return (
         <section className='testimonials'>
-            <h2 className='section-heading'>What our clients are saying</h2>
+            <h2 className='section-heading section-heading--white'>What our clients are saying</h2>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={50}
@@ -20,7 +20,7 @@ export default function Testimonials() {
                 autoplay={{
                     delay: 1500,
                     disableOnInteraction: false,
-                    // waitForTransition: true,
+                    waitForTransition: true,
                     pauseOnMouseEnter: true,
                     speed: 1500,
                 }}
