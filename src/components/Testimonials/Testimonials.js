@@ -6,36 +6,42 @@ import './Testimonials.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 
+import { testimonials } from '../../data/data';
+import StarRating from '../StarRating/StarRating';
+
 export default function Testimonials() {
     return (
-        <section className='testimonials__swiper'>
-            <h2>What our clients are saying</h2>
+        <section className='testimonials'>
+            <h2 className='section-heading'>What our clients are saying</h2>
             <Swiper
                 slidesPerView={3}
-                spaceBetween={30}
-                pagination={{
-                    clickable: true,
-                }}
+                spaceBetween={50}
                 navigation
                 autoplay={{
-                    delay: 500,
+                    delay: 1500,
                     disableOnInteraction: false,
-                    waitForTransition: true,
-                    pauseOnMouseEnter: true
+                    // waitForTransition: true,
+                    pauseOnMouseEnter: true,
+                    speed: 1500,
                 }}
+                speed={1500}
+                effect='slide'
                 loop
                 modules={[Pagination, Autoplay, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                {
+                    testimonials.map((review, index) => (
+                        <SwiperSlide key={index}>
+                            <div className='testimonials__avatar'>
+                                <img src={review.image} alt='user avatar' />
+                            </div>
+                            <StarRating rating={review.rating} />
+                            <h3 className='testimonials__user'>{review.name}</h3>
+                            <p className='testimonials__review'>{review.review}</p>
+                        </SwiperSlide>
+                    ))
+                }
             </Swiper>
         </section>
     );
