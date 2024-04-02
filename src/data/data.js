@@ -60,3 +60,36 @@ export const testimonials = [
         rating: 5 
     }
 ];
+
+export const communities = [
+    {
+        name: 'Miami Lakes',
+        path: 'miami-lakes',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1669053918759-2PU6OQXZVY89F64JPM2Z/Miami%2BLakes-1.jpg?format=1500w'
+    },
+    {
+        name: 'Pembroke Pines',
+        path: 'pembroke-pines',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1669053657155-O2VFAF0XHFQXK9V46IJR/Pembroke%2BPines-1.jpg?format=1500w'
+    },
+    {
+        name: 'Miramar',
+        path: 'miramar',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1513654568459-MYDWD33XSK11WRRBPNYT/Miramar.jpg?format=1500w'
+    },
+    {
+        name: 'Southwest Ranches',
+        path: 'southwest-ranches',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1620961223216-KM1TGRK9OJR55ZV8TC8Q/unsplash-image-Z_fl2kybrm0.jpg?format=1500w'
+    },
+    {
+        name: 'Cooper City',
+        path: 'cooper-city',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1619208167554-PKF5WKR44IPNL40WMJ80/unsplash-image-9rYfG8sWRVo.jpg?format=1500w'
+    },
+    {
+        name: 'Davie',
+        path: 'davie',
+        url : 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1619208229913-DE7QL82C2YPNAJ2KQCLI/unsplash-image-AwOG1tC5buE.jpg?format=1500w'
+    },
+]
