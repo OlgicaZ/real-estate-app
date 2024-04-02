@@ -1,24 +1,21 @@
 import './Careers.scss';
-// import 'swiper/scss';
-// import 'swiper/scss/pagination';
-// import 'swiper/scss/autoplay';
-// import 'swiper/scss/navigation';
-
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Pagination, Autoplay, Navigation } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/scss';
 import 'swiper/scss/effect-coverflow';
 import 'swiper/scss/pagination';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
 import { realtors } from '../../data/data';
+import { useState } from 'react';
+import ContactModal from '../ContactModal/ContactModal';
 
 export default function Careers() {
+
+    const [showModal, setShowModal] = useState(false);
+
+    const toggleModal = () => setShowModal(!showModal);
+
     return (
         <>
             <section className='team'>
@@ -58,6 +55,18 @@ export default function Careers() {
                         ))
                     }
                 </Swiper>
+            </section>
+            <section className='careers'>
+                    <h2 className='section-heading section-heading--black'>Work with us</h2>
+                    <span>Call us today to schedule a consultation to sell or a private showing.</span>
+                    <div 
+                        className='careers__contact-button cta-button'
+                        onClick={toggleModal}
+                    >
+                        Contact
+                    </div>
+
+                    <ContactModal showModal={showModal} toggleModal={toggleModal} />
             </section>
         </>
     )

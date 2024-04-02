@@ -42,3 +42,23 @@
         background-color: $soft-white;
     }
 }
+
+.careers {
+    background-color: $light-grey;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__contact-button {
+        background-color: $brick;
+        color: $white;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 1.4rem;
+        margin-bottom: 6%;
+        font-weight: 450;
+    }
+}

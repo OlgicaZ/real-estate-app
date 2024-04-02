@@ -14,7 +14,7 @@ export default function About() {
                         <h2>Our Values</h2>
                         <h3>God, Family, and then Business</h3>
                     </div>
-                    <Link to='/about' className='about__more-button'>LEARN MORE</Link>
+                    <Link to='/about' className='about__more-button cta-button'>LEARN MORE</Link>
                 </section>
             </div>
             <section className='services'>

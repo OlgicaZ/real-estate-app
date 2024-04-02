@@ -3,8 +3,9 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    
-    &:before, &:after {
+
+    &:before,
+    &:after {
         box-sizing: border-box;
     }
 }
@@ -75,4 +76,12 @@ button {
         border-top: .1875rem solid $white;
         border-bottom: .1875rem solid $white;
     }
+}
+
+.cta-button {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
