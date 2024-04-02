@@ -16,7 +16,7 @@ export default function Testimonials() {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={50}
-                navigation
+                navigation={true}
                 autoplay={{
                     delay: 1500,
                     disableOnInteraction: false,
