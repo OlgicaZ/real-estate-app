@@ -1,0 +1,54 @@
+@use './../../partials/colors' as *;
+
+.footer {
+    background-color: $black;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: $soft-white;
+
+    &__logo {
+        width: 15vw;
+        margin-bottom: 1.25rem;
+    }
+
+    &__address {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__telephone {
+        margin-bottom: 1rem;
+    }
+
+    svg {
+        margin-right: 1rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin-bottom: 1.25rem;
+    }
+
+    span, a, li {
+        font-weight: 500;
+        line-height: 1.7;
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .leaflet-container {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+
+
+

@@ -1,18 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { navOptions } from "../../data/data";
 import "./Header.scss";
 
 export default function Header() {
-  const navOptions = [
-    { id: 0, name: "Home", path: "" },
-    { id: 1, name: "Home Valuation", path: "valuation" },
-    { id: 2, name: "Sell", path: "sell" },
-    { id: 3, name: "Buy", path: "buy" },
-    { id: 4, name: "Community Guide", path: "guide" },
-    { id: 5, name: "Blog", path: "blog" },
-    { id: 6, name: "Career Page", path: "career" },
-    { id: 7, name: "About Us", path: "about" },
-    { id: 8, name: "Events", path: "events" },
-  ];
 
   return (
     <div className="header">

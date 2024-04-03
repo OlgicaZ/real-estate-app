@@ -1,3 +1,46 @@
+export const navOptions = [
+    { id: 0, name: "Home", path: "" },
+    { id: 1, name: "Home Valuation", path: "valuation" },
+    { id: 2, name: "Sell", path: "sell" },
+    { id: 3, name: "Buy", path: "buy" },
+    { id: 4, name: "Community Guide", path: "guide" },
+    { id: 5, name: "Blog", path: "blog" },
+    { id: 6, name: "Career Page", path: "career" },
+    { id: 7, name: "About Us", path: "about" },
+    { id: 8, name: "Events", path: "events" },
+];
+
+export const officeHours = [
+    {
+        day: 'Monday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Tuesday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Wednesday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Thursday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Friday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Saturday',
+        hours: '8am - 8pm'
+    },
+    {
+        day: 'Sunday',
+        hours: '8am - 8pm'
+    },
+]
+
 export const testimonials = [
     {
         name: "Alice Smith",

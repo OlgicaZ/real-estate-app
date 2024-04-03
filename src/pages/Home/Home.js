@@ -4,6 +4,7 @@ import VideoHero from "../../components/VideoHero/VideoHero";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import CommunityGuide from "../../components/CommunityGuide/CommunityGuide";
 import Careers from "../../components/Careers/Careers";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Testimonials />
       <CommunityGuide />
       <Careers />
+      <Footer />
     </>
   );
 }
