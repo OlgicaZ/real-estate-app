@@ -5,6 +5,7 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import CommunityGuide from "../../components/CommunityGuide/CommunityGuide";
 import Careers from "../../components/Careers/Careers";
 import Footer from "../../components/Footer/Footer";
+import Contact from "../../components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <CommunityGuide />
       <Careers />
       <Footer />
+      <Contact />
     </>
   );
 }
