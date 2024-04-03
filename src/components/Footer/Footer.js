@@ -84,7 +84,7 @@ export default function Footer() {
                     </div>
                     <div className='footer__telephone'>
                         <BsFillTelephoneFill />
-                        <a href="tel:+13059877974">+1 (305) 987 - 7974</a>
+                        <a href="tel:+15613325000">+1 (561) 332 - 5000</a>
                     </div>
                 </address>
                 <MapContainer center={position} zoom={17}>

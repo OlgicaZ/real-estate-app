@@ -185,7 +185,7 @@ export default function PrivacyModal({ showModal, toggleModal }) {
                         This Privacy Policy was last revised on January 12, 2024. We reserve the right to modify or amend this policy at any time by posting the revised Privacy Policy on the website
                     </p>
                     <div
-                        className='privacy-modal__accept-button'
+                        className='privacy-modal__accept-button modal-button'
                         onClick={toggleModal}
                     >
                         Accept

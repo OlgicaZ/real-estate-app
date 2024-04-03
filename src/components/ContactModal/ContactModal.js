@@ -124,7 +124,7 @@ export default function ContactModal({ showModal, toggleModal }) {
                             </div>
                             <ErrorMessage className='contact-modal__error-message' name="marketingConsent" component="div" />
 
-                            <button type="submit">Submit</button>
+                            <button className='modal-button' type="submit">Submit</button>
                         </Form>
                     </Formik>
                 </div>

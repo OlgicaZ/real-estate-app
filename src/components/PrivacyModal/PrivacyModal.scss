@@ -34,13 +34,7 @@
     }
 
     &__accept-button {
-        width: fit-content;
         margin: 0 auto;
         margin-top: 10%;
-        padding: .9375rem 2.8125rem;
-        background-color: $brick;
-        color: $white;
-        text-transform: uppercase;
-        font-weight: 600;
     }
 }

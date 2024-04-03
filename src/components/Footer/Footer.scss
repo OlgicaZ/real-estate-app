@@ -29,6 +29,14 @@
             margin-right: 1rem;
         }
     }
+    
+    &__privacy {
+        cursor: pointer;
+        margin-top: 10%;
+        width: fit-content;
+        border-bottom: 1px solid $soft-white;
+        padding-bottom: .0625rem;
+    }
 
     section {
         display: flex;
