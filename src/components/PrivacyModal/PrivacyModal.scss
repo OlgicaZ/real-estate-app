@@ -1,0 +1,46 @@
+@use './../../partials/colors' as *;
+
+.privacy-modal {
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $black;
+
+    &__content {
+        transform: translateY(10vh);
+        background-color: $light-grey;
+        width: 60%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__close-button {
+        transform: scale(2.5);
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    &__policy {
+        padding: 5%;
+    }
+
+    &__accept-button {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10%;
+        padding: .9375rem 2.8125rem;
+        background-color: $brick;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

@@ -48,16 +48,6 @@ export default function ContactModal({ showModal, toggleModal }) {
             marketingConsent: values.marketingConsent
         }
 
-        // let formData = new FormData();
-        // formData.append('firstName', values.firstName);
-        // formData.append('lastName', values.lastName);
-        // formData.append('email', values.email);
-        // formData.append('phoneNumber', values.phoneNumber);
-        // formData.append('subject', values.subject);
-        // formData.append('message', values.message);
-        // // Convert boolean to a string representation for EmailJS
-        // formData.append('marketingConsent', values.marketingConsent ? 'Yes' : 'No');
-
         emailjs.send(env.SERVICE_ID, env.TEMPLATE_ID, formParameters, env.PUBLIC_KEY)
             .then((response) => {
                 //console.log('Email sent successfully!', response);

@@ -11,6 +11,8 @@ import { NavLink } from 'react-router-dom';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { useState } from 'react';
+import PrivacyModal from '../PrivacyModal/PrivacyModal';
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -26,6 +28,10 @@ L.Icon.Default.mergeOptions({
 
 export default function Footer() {
 
+    const [showModal, setShowModal] = useState(false);
+
+    const toggleModal = () => {setShowModal(!showModal);}
+
     const position = [25.80517480280579, -80.18918292051922];
 
     return (
@@ -35,8 +41,9 @@ export default function Footer() {
                 <span>
                     ©Keller Williams Realty     <br />
                     Miami Lakes 2024            <br />
-                    All right reserved
+                    All right reserved          <br />
                 </span>
+                <span onClick={toggleModal} className='footer__privacy'>Prvacy Policy</span>
             </section>
             <section>
                 <h2>Services</h2>
@@ -80,7 +87,7 @@ export default function Footer() {
                         <a href="tel:+13059877974">+1 (305) 987 - 7974</a>
                     </div>
                 </address>
-                <MapContainer center={position} zoom={17} >
+                <MapContainer center={position} zoom={17}>
                     <TileLayer
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
@@ -91,6 +98,7 @@ export default function Footer() {
                     </Marker>
                 </MapContainer>
             </section>
+            <PrivacyModal showModal={showModal} toggleModal={toggleModal} />
         </footer>
     )
 }

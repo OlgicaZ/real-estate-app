@@ -16,14 +16,18 @@
         display: flex;
         align-items: center;
         margin-bottom: 1rem;
+
+        svg {
+            margin-right: 1rem;
+        }
     }
 
     &__telephone {
         margin-bottom: 1rem;
-    }
 
-    svg {
-        margin-right: 1rem;
+        svg {
+            margin-right: 1rem;
+        }
     }
 
     section {
@@ -47,6 +51,7 @@
     .leaflet-container {
         width: 300px !important;
         height: 200px !important;
+        z-index: 1;
     }
 }
 
