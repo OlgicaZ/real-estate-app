@@ -1,4 +1,5 @@
-.filters {
-    background-color: red;
-    grid-area: 'filter';
+@use './../../partials/colors' as *;
+
+.buy-home__filters {
+    background-color: $light-grey;
 }

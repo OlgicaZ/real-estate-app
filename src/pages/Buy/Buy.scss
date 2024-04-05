@@ -9,17 +9,14 @@
     grid-template-columns: 23vw 1fr;
 
     &__search {
-        background-color: yellow;
-        grid-area: search; // Removed quotes
+        grid-area: search; 
     }
 
     &__filters {
-        background-color: red;
-        grid-area: filter; // Removed quotes
+        grid-area: filter; 
     }
 
     &__results {
-        background-color: green;
-        grid-area: results; // Removed quotes
+        grid-area: results; 
     }
 }
