@@ -60,18 +60,33 @@
 
         &-container {
             background: $medium-grey;
-            border-radius: .625rem;
-            padding: .3125rem;
+            border-radius: .375rem;
+            padding: .1875rem;
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: .1875rem;
+
+            div {
+                height: 2.5rem;
+                width: 2.5rem;
+                background: transparent;
+                border-radius: .375rem;
+                display: grid;
+                place-items: center;
+                padding: .625rem;
+                transition: background-color 0.3s;
+
+                &.selected {
+                    background-color: $light-grey;
+                }
+            }
 
             svg {
                 height: 100%;
-                width: 1.25rem;
-                margin: .3125rem;
+                width: 100%;
                 background: transparent;
-                color: grey;
+                color: $black;
             }
         }
     }

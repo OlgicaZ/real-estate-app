@@ -5,7 +5,7 @@ import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SlMap } from "react-icons/sl";
 
-export default function SearchBar({ className }) {
+export default function SearchBar({ className, selectedView, toggleView }) {
     return (
         <div className={className}>
             <div className='buy-home__search-container'>
@@ -23,9 +23,24 @@ export default function SearchBar({ className }) {
 
             <div className='buy-home__search-view'>
                 <div className='buy-home__search-view-container'>
-                    <HiOutlineSquares2X2 />
-                    <RxHamburgerMenu />
-                    <SlMap />
+                    <div
+                        className={`${(selectedView === 'grid') ? 'selected' : ''}`}
+                        onClick={() => toggleView('grid')}
+                    >
+                        <HiOutlineSquares2X2 />
+                    </div>
+                    <div
+                        className={`${(selectedView === 'list') ? 'selected' : ''}`}
+                        onClick={() => toggleView('list')}
+                    >
+                        <RxHamburgerMenu />
+                    </div>
+                    <div
+                        className={`${(selectedView === 'map') ? 'selected' : ''}`}
+                        onClick={() => toggleView('map')}
+                    >
+                        <SlMap />
+                    </div>
                 </div>
             </div>
         </div>
