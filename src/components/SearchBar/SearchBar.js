@@ -1,6 +1,9 @@
 import './SearchBar.scss';
 
 import { RiSearch2Line } from "react-icons/ri";
+import { HiOutlineSquares2X2 } from "react-icons/hi2";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { SlMap } from "react-icons/sl";
 
 export default function SearchBar({ className }) {
     return (
@@ -18,8 +21,12 @@ export default function SearchBar({ className }) {
                 </form>
             </div>
 
-            <div className='buy-home__search-view-container'>
-
+            <div className='buy-home__search-view'>
+                <div className='buy-home__search-view-container'>
+                    <HiOutlineSquares2X2 />
+                    <RxHamburgerMenu />
+                    <SlMap />
+                </div>
             </div>
         </div>
     )

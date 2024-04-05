@@ -1,12 +1,13 @@
 @use './../../partials/colors' as *;
 
 .buy-home__search {
+    width: 100vw;
     background-color: $light-grey;
     border-bottom: .0625rem solid $medium-grey;
     display: grid;
     grid-template-areas:
         ". search-bar view";
-    grid-template-columns: repeat(1fr, 2fr, 1fr);
+    grid-template-columns: 1fr 2fr 1fr;
 
     &-container {
         grid-area: search-bar;
@@ -50,7 +51,28 @@
         }
     }
 
-    &-view-container {
+    &-view {
         grid-area: view;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &-container {
+            background: $medium-grey;
+            border-radius: .625rem;
+            padding: .3125rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                height: 100%;
+                width: 1.25rem;
+                margin: .3125rem;
+                background: transparent;
+                color: grey;
+            }
+        }
     }
 }
