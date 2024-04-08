@@ -23,7 +23,7 @@
             padding: 1rem;
             border: .0625rem solid $medium-grey;
             border-radius: 1.5625rem;
-            //background: #eeeeeebc;
+            background: #eeeeeebc;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -61,24 +61,27 @@
         &-container {
             background: $medium-grey;
             border-radius: .375rem;
-            padding: .1875rem;
+            padding: .125rem;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: .1875rem;
 
             div {
-                height: 2.5rem;
-                width: 2.5rem;
+                height: 2.1875rem;
+                width: 2.1875rem;
                 background: transparent;
+                box-shadow: none;
                 border-radius: .375rem;
                 display: grid;
                 place-items: center;
-                padding: .625rem;
-                transition: background-color 0.3s;
+                padding: .5625rem;
+                transition: background-color 0.5s,
+                            box-shadow 0.5s;
 
                 &.selected {
                     background-color: $light-grey;
+                    box-shadow: $selected-item-shadow;
                 }
             }
 
