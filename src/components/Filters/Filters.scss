@@ -3,3 +3,76 @@
 .buy-home__filters {
     background-color: $light-grey;
 }
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    h2 {
+        padding: 0 0 1rem;
+        border-bottom: .0625rem solid $medium-grey;
+        font-weight: 550;
+        font-size: 1.375rem;
+    }
+
+    svg {
+        stroke-width: 0.5;
+        transition: transform 0.4s linear;
+
+        &.closed {
+            transform: rotate(-180deg);
+        }
+    }
+
+    &__filter-type {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        border-bottom: .0625rem solid $medium-grey;
+    }
+
+    &__heading-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 550;
+        }
+    }
+
+    &__filters-container {
+        max-height: 12.5rem;
+        overflow: hidden;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        transition: max-height 1s;
+        
+        &.close {
+            max-height: 0rem;
+            margin-top: 0rem;
+            transition: max-height 1s, margin-top 1.2s ease;
+        }
+
+        input {
+            margin-right: 0.5rem;
+
+            &:checked {
+                accent-color: $brick;
+            }
+        }
+
+        label {
+            font-size: .875rem;
+            font-weight: 450;
+
+            &:hover {
+                background: transparent;
+            }
+        }
+    }
+}

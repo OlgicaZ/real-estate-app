@@ -194,3 +194,75 @@ export const communities = [
         url: 'https://images.squarespace-cdn.com/content/v1/59d1cb52cd39c3d497f3ccd8/1619208229913-DE7QL82C2YPNAJ2KQCLI/unsplash-image-AwOG1tC5buE.jpg?format=1500w'
     },
 ]
+
+export const propertyType = [
+    {
+        name: 'Single Family Home'
+    },
+    {
+        name: 'Condo/Townhouse'
+    },
+    {
+        name: 'Apartment'
+    },
+    {
+        name: 'Commercial'
+    },
+    {
+        name: 'Land'
+    },
+    {
+        name: 'Multi-Family'
+    }
+]
+
+export const priceRange = [
+    {
+        range: 'Under $200K'
+    },
+    {
+        range: '$200K - $500K'
+    },
+    {
+        range: '$500K - $1M'
+    },
+    {
+        range: '> $1M'
+    }
+]
+
+export const bedrooms = [
+    {
+        numberBedrooms : '1 Bedroom' 
+    },
+    {
+        numberBedrooms : '2 Bedrooms' 
+    },
+    {
+        numberBedrooms : '3 Bedrooms' 
+    },
+    {
+        numberBedrooms : '4 Bedrooms' 
+    },
+    {
+        numberBedrooms : '5+ Bedrooms' 
+    }
+]
+
+export const bathrooms = [
+    {
+        numberBathrooms : '1 Bathroom' 
+    },
+    {
+        numberBathrooms : '2 Bathrooms' 
+    },
+    {
+        numberBathrooms : '3 Bathrooms' 
+    },
+    {
+        numberBathrooms : '4 Bathrooms' 
+    },
+    {
+        numberBathrooms : '5+ Bathrooms' 
+    }
+]
