@@ -197,72 +197,92 @@ export const communities = [
 
 export const propertyType = [
     {
+        id : 0,
         name: 'Single Family Home'
     },
     {
+        id : 1,
         name: 'Condo/Townhouse'
     },
     {
+        id : 2,
         name: 'Apartment'
     },
     {
+        id : 3,
         name: 'Commercial'
     },
     {
+        id : 4,
         name: 'Land'
     },
     {
+        id : 5,
         name: 'Multi-Family'
     }
 ]
 
 export const priceRange = [
     {
+        id : 0,
         range: 'Under $200K'
     },
     {
+        id : 2,
         range: '$200K - $500K'
     },
     {
+        id : 3,
         range: '$500K - $1M'
     },
     {
+        id : 4,
         range: '> $1M'
     }
 ]
 
 export const bedrooms = [
     {
+        id : 0,
         numberBedrooms : '1 Bedroom' 
     },
     {
+        id : 1,
         numberBedrooms : '2 Bedrooms' 
     },
     {
+        id : 2,
         numberBedrooms : '3 Bedrooms' 
     },
     {
+        id : 3,
         numberBedrooms : '4 Bedrooms' 
     },
     {
+        id : 4,
         numberBedrooms : '5+ Bedrooms' 
     }
 ]
 
 export const bathrooms = [
     {
+        id : 0,
         numberBathrooms : '1 Bathroom' 
     },
     {
+        id : 1,
         numberBathrooms : '2 Bathrooms' 
     },
     {
+        id : 2,
         numberBathrooms : '3 Bathrooms' 
     },
     {
+        id : 3,
         numberBathrooms : '4 Bathrooms' 
     },
     {
+        id : 4,
         numberBathrooms : '5+ Bathrooms' 
     }
 ]

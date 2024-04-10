@@ -1,8 +1,8 @@
 import './Filters.scss';
 
 import { HiChevronDown } from "react-icons/hi2";
-import { HiChevronUp } from "react-icons/hi2";
 import { propertyType, priceRange, bedrooms, bathrooms } from '../../data/data';
+
 import { useState } from 'react';
 
 export default function Filters({ className }) {

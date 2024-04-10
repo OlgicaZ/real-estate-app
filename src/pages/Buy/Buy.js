@@ -6,13 +6,17 @@ import Contact from "../../components/Contact/Contact";
 import FilterResults from "../../components/FilterResults/FilterResults";
 import Filters from "../../components/Filters/Filters";
 import SearchBar from '../../components/SearchBar/SearchBar';
+import jsonData from './../../data/for-sale-listings.json';
+
 import { useState } from 'react';
 
 export default function Buy() {
 
     const [selectedView, setSelectedView] = useState('grid');
+    const [data, setData] = useState(jsonData.home_search.results)
 
-    const toggleView= (view) => {setSelectedView(view)}
+    const toggleView = (view) => {setSelectedView(view)}
+    const updateData = (newData) => (setData(newData));
 
     return (
         <>
@@ -23,8 +27,14 @@ export default function Buy() {
                     selectedView={selectedView}
                     toggleView={toggleView}
                 />
-                <Filters className='buy-home__filters'/>
-                <FilterResults className='buy-home__results'/>
+                <Filters 
+                    className='buy-home__filters'   
+                />
+                <FilterResults 
+                    className='buy-home__results'
+                    selectedView={selectedView}
+                    data={data}
+                />
             </main>
         </>
     )

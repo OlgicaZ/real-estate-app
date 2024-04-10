@@ -1,0 +1,94 @@
+@use './../../partials/colors' as *;
+
+.listings-card {
+    height: 21.875rem;
+    background: $light-grey;
+    border: .0625rem solid $grey;
+    border-radius: .25rem;
+
+    &__image-container {
+        position: relative;
+        height: 65%;
+        width: 100%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    &__address,
+    &__number-photos {
+        position: absolute;
+        left: .1875rem;
+        width: fit-content;
+        padding: .125rem .5rem;
+        border-radius: .25rem;
+        background-color: $grey-transparent;
+        display: flex;
+        align-items: center;
+        font-size: .8125rem;
+        color: $white;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__address {
+        top: .3125rem;
+    }
+
+    &__number-photos {
+        bottom: .3125rem;
+    }
+
+    &__details-container {
+
+        h3 {
+            padding: 0.5rem;
+            font-size: 1.125rem;
+            font-weight: 500;
+        }
+    }
+
+    &__description {
+        padding: 0 0.5rem 0.5rem;
+        border-bottom: .0625rem solid $grey;;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        gap: .3125rem
+    }
+
+    &__details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .8125rem;
+        font-weight: 475;
+        border: .0625rem solid $grey;
+        border-radius: .25rem;
+        padding: .0625rem .1875rem;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__button-container {
+        cursor: pointer;
+        border-radius: .25rem;
+        margin: 0.5rem;
+        padding: 0.2rem 0;
+        background-color: $brick;
+        color: $white;
+        display: grid;
+        place-items: center;
+
+        a {
+
+        }
+    }
+}

@@ -25,10 +25,10 @@ export default function Contact() {
                         <a href='tel:+13053435065'>Call</a>
                     </div>
                 </div>
-                <div href='sms:+13053435065' className='contact--open__text'>
+                <div className='contact--open__text'>
                     <div>
                         <AiFillMessage />
-                        <a href='tel:+13053435065'>Text</a>
+                        <a href='sms:+13053435065'>Text</a>
                     </div>
                 </div>
             </div>
