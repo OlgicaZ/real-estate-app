@@ -22,4 +22,11 @@
             gap: .625rem;
         }
     }
+
+    &__pagination {
+        display: grid;
+        place-items: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
 }
