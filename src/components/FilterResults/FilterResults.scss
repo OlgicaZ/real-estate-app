@@ -28,5 +28,15 @@
         place-items: center;
         padding-top: 1rem;
         padding-bottom: 2rem;
+
+        .ant-pagination-item-active {
+            border-color: $brick !important;
+            overflow: hidden;
+
+            a {
+                color: $brick !important;
+                background-color: $light-grey;
+            }
+        }
     }
 }

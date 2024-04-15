@@ -32,7 +32,7 @@ export default function FilterResults({ className, selectedView, data }) {
             </div>
             <div className='listings__pagination'>
             <Pagination 
-                current={1} 
+                current={currentPage} 
                 pageSize={itemsPerPage} 
                 onChange={handlePagination}
                 total={numberPages} 
