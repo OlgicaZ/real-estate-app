@@ -5,7 +5,7 @@ import { propertyType, priceRange, bedrooms, bathrooms } from '../../data/data';
 
 import { useState } from 'react';
 
-export default function Filters({ className }) {
+export default function Filters({ className, updateData, updateFilters }) {
 
     const [visibleSections, setVisibleSections] = useState({
         propertyType: true,
@@ -37,7 +37,11 @@ export default function Filters({ className }) {
                     {
                         propertyType.map((type) => (
                             <label key={type.id}>
-                                <input type='checkbox' name='property-type' />
+                                <input 
+                                    type='checkbox' 
+                                    name='property-type' 
+                                    onChange={() => updateFilters(type.name)}
+                                />
                                 {type.name}
                             </label>
                         ))
@@ -58,7 +62,11 @@ export default function Filters({ className }) {
                     {
                         priceRange.map((price) => (
                             <label key={price.id}>
-                                <input type='checkbox' name='property-type' />
+                                <input 
+                                    type='checkbox' 
+                                    name='price-range' 
+                                    onChange={() => updateFilters(price.range)}
+                                />
                                 {price.range}
                             </label>
                         ))
@@ -79,7 +87,11 @@ export default function Filters({ className }) {
                     {
                         bedrooms.map((item) => (
                             <label key={item.id}>
-                                <input type='checkbox' name='property-type' />
+                                <input 
+                                    type='checkbox' 
+                                    name='bedrooms' 
+                                    onChange={() => updateFilters(item.numberBedrooms)} 
+                                />
                                 {item.numberBedrooms}
                             </label>
                         ))
@@ -100,7 +112,11 @@ export default function Filters({ className }) {
                     {
                         bathrooms.map((item) => (
                             <label key={item.id}>
-                                <input type='checkbox' name='property-type' />
+                                <input 
+                                    type='checkbox' 
+                                    name='bathrooms' 
+                                    onChange={() => updateFilters(item.numberBathrooms)}
+                                />
                                 {item.numberBathrooms}
                             </label>
                         ))
