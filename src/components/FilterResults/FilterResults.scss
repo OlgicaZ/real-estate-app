@@ -16,7 +16,7 @@
     }
 
     &__houses-for-sale {
-
+        font-weight: 450;
         b {
             font-size: 1.4rem;
             font-weight: 550;
@@ -27,8 +27,32 @@
     &__selected-filters-container {
         display: flex;
         grid-template-columns: repeat(auto-fill, 1fr);
-        gap: 1.5rem;
+        gap: .625rem;
     }
+
+    &__selected-filters, &__clear-button {
+        font-size: .875rem;
+        font-weight: 450;
+        padding: .1875rem .9375rem;
+        border-radius: 1.5625rem;
+    }
+
+    &__selected-filters {
+        background-color: $brick;
+        color: $white;
+    }
+
+    &__clear-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $grey;
+
+        svg {
+            margin-left: 0.5rem;
+        }
+    }
+    
 
     &__container {
         padding: 1rem;

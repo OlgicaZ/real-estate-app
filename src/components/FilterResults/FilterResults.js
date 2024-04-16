@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import ProperyCard from '../PropertyCard/PropertyCard';
+import { GrClear } from "react-icons/gr";
+
 import './FilterResults.scss';
 import { Pagination } from "antd";
 
@@ -36,7 +38,7 @@ export default function FilterResults({ className, selectedView, data, selectedF
                                         <span key={index} className='listings__selected-filters'>{item}</span>
                                     ))
                                 }
-                                <span>{`( ${selectedFilters.length - 3} ) more`}</span>
+                                <span className='listings__selected-filters'>{`( ${selectedFilters.length - 3} ) more`}</span>
                             </>
                         ) : (
                             selectedFilters.map((item, index) => (
@@ -48,6 +50,7 @@ export default function FilterResults({ className, selectedView, data, selectedF
 
                 <div className='listings__clear-button'>
                     Clear Filters
+                    <GrClear />
                 </div>
             </div>
             <div className={`listings__container listings__container--${selectedView}`}>
