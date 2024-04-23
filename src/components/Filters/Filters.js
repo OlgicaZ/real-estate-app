@@ -5,7 +5,7 @@ import { propertyType, priceRange, bedrooms, bathrooms } from '../../data/data';
 
 import { useState } from 'react';
 
-export default function Filters({ className, updateData, updateFilters }) {
+export default function Filters({ className, updateData, updateFilters, selectedFilters }) {
 
     const [visibleSections, setVisibleSections] = useState({
         propertyType: true,
@@ -40,7 +40,8 @@ export default function Filters({ className, updateData, updateFilters }) {
                                 <input 
                                     type='checkbox' 
                                     name='property-type' 
-                                    onChange={() => updateFilters(type.name)}
+                                    onChange={() => updateFilters('propertyType', type.name)}
+                                    checked={selectedFilters.propertyType.has(type.name) || false}
                                 />
                                 {type.name}
                             </label>
@@ -65,7 +66,8 @@ export default function Filters({ className, updateData, updateFilters }) {
                                 <input 
                                     type='checkbox' 
                                     name='price-range' 
-                                    onChange={() => updateFilters(price.range)}
+                                    onChange={() => updateFilters('priceRange', price.range)}
+                                    checked={selectedFilters.priceRange.has(price.range) || false}
                                 />
                                 {price.range}
                             </label>
@@ -90,7 +92,8 @@ export default function Filters({ className, updateData, updateFilters }) {
                                 <input 
                                     type='checkbox' 
                                     name='bedrooms' 
-                                    onChange={() => updateFilters(item.numberBedrooms)} 
+                                    onChange={() => updateFilters('numberBedrooms', item.numberBedrooms)} 
+                                    checked={selectedFilters.numberBedrooms.has(item.numberBedrooms) || false}
                                 />
                                 {item.numberBedrooms}
                             </label>
@@ -115,7 +118,8 @@ export default function Filters({ className, updateData, updateFilters }) {
                                 <input 
                                     type='checkbox' 
                                     name='bathrooms' 
-                                    onChange={() => updateFilters(item.numberBathrooms)}
+                                    onChange={() => updateFilters('numberBathrooms', item.numberBathrooms)}
+                                    checked={selectedFilters.numberBathrooms.has(item.numberBathrooms) || false}
                                 />
                                 {item.numberBathrooms}
                             </label>

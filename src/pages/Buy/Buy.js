@@ -18,20 +18,38 @@ export default function Buy() {
     const [data, setData] = useState(jsonData.home_search.results);
     const updateData = (newData) => { setData(newData) };
 
-    const [selectedFilters, setSelectedFilters] = useState([]);
-    const updateFilters = (value) => {
-        let updatedArray;
+    const [selectedFilters, setSelectedFilters] = useState({
+        propertyType: new Set(),
+        priceRange: new Set(),
+        numberBedrooms: new Set(),
+        numberBathrooms: new Set()
+    });
     
-        if (selectedFilters.includes(value)) {
-            updatedArray = selectedFilters.filter(item => item !== value);
-        } else {
-            updatedArray = [...selectedFilters, value];
-        }
-    
-        setSelectedFilters(updatedArray);
-    };
+    const updateFilters = (category, filter) => {
 
-    console.log(data);
+        setSelectedFilters((prevFilters) => {
+            let updatedFilters = new Set(prevFilters[category]);
+
+            if (updatedFilters.has(filter)) {
+                updatedFilters.delete(filter);
+            } else {
+                updatedFilters.add(filter);
+            }
+
+            return { ...prevFilters, [category]: updatedFilters}
+        })
+    }
+
+    const clearFilters = () => {
+        setSelectedFilters({
+            propertyType: new Set(),
+            priceRange: new Set(),
+            numberBedrooms: new Set(),
+            numberBathrooms: new Set()
+        });
+    }
+
+    // console.log(data);
 
     return (
         <>
@@ -46,12 +64,14 @@ export default function Buy() {
                     className='buy-home__filters'
                     updateData={updateData}
                     updateFilters={updateFilters}
+                    selectedFilters={selectedFilters}
                 />
                 <FilterResults
                     className='buy-home__results'
                     selectedView={selectedView}
                     data={data}
                     selectedFilters={selectedFilters}
+                    clearFilters={clearFilters}
                 />
             </main>
             <Footer />

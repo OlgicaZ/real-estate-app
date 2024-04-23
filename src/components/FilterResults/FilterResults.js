@@ -1,11 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ProperyCard from '../PropertyCard/PropertyCard';
 import { GrClear } from "react-icons/gr";
 
 import './FilterResults.scss';
 import { Pagination } from "antd";
 
-export default function FilterResults({ className, selectedView, data, selectedFilters }) {
+
+
+export default function FilterResults({ className, selectedView, data, clearFilters, selectedFilters }) {
 
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(8);
@@ -15,7 +17,11 @@ export default function FilterResults({ className, selectedView, data, selectedF
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentItems = data.slice(indexOfFirstItem, Math.min(indexOfLastItem, data.length));
 
-    console.log(currentItems);
+    const [displayFilters, setDisplayFilters] = useState(Object.values(selectedFilters).flatMap(set => Array.from(set))); 
+
+    useEffect(() => {
+        setDisplayFilters(Object.values(selectedFilters).flatMap(set => Array.from(set)));
+    }, [selectedFilters]); 
 
     const handlePagination = (page, pageSize) => {
         setCurrentPage(page);
@@ -31,24 +37,27 @@ export default function FilterResults({ className, selectedView, data, selectedF
 
                 <div className='listings__selected-filters-container'>
                     {
-                        selectedFilters && selectedFilters.length > 3 ? (
+                        displayFilters && displayFilters.length > 3 ? (
                             <>
                                 {
-                                    selectedFilters.slice(0, 3).map((item, index) => (
+                                    displayFilters.slice(0, 3).map((item, index) => (
                                         <span key={index} className='listings__selected-filters'>{item}</span>
                                     ))
                                 }
-                                <span className='listings__selected-filters'>{`( ${selectedFilters.length - 3} ) more`}</span>
+                                <span className='listings__selected-filters'>{`( ${displayFilters.length - 3} ) more`}</span>
                             </>
                         ) : (
-                            selectedFilters.map((item, index) => (
+                            displayFilters.map((item, index) => (
                                 <span key={index} className='listings__selected-filters'>{item}</span>
                             ))
                         )
                     }
                 </div>
 
-                <div className='listings__clear-button'>
+                <div
+                    className='listings__clear-button'
+                    onClick={() => clearFilters()}
+                >
                     Clear Filters
                     <GrClear />
                 </div>
