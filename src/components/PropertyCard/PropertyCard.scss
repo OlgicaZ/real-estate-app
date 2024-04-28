@@ -1,15 +1,18 @@
 @use './../../partials/colors' as *;
 
+
+
 .listings-card {
     height: 21.875rem;
     background: $light-grey;
     border: .0625rem solid $grey;
     border-radius: .25rem;
 
+
     &__image-container {
-        position: relative;
         height: 65%;
-        width: 100%;
+            width: 100%;
+        position: relative;
     }
 
     img {
@@ -56,7 +59,8 @@
 
     &__description {
         padding: 0 0.5rem 0.5rem;
-        border-bottom: .0625rem solid $grey;;
+        border-bottom: .0625rem solid $grey;
+        ;
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
         gap: .3125rem

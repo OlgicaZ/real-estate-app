@@ -65,7 +65,7 @@ export default function FilterResults({ className, selectedView, data, clearFilt
             <div className={`listings__container listings__container--${selectedView}`}>
                 {
                     currentItems.map((property, index) => (
-                        <ProperyCard key={index} property={property} />
+                        <ProperyCard key={index} property={property} selectedView={selectedView} />
                     ))
                 }
             </div>

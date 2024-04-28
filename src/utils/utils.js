@@ -105,7 +105,6 @@ export const filterByPriceRange = (priceRangeFilters, item) => {
 
 export const filterByNumberBedrooms = (numberBedroomsFilters, item) => {
     let bedrooms = false;
-    console.log('recognizes the filter');
 
     for (const filter of numberBedroomsFilters) {
         switch (filter) {

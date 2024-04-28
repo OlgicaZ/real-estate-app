@@ -58,7 +58,6 @@ export default function Buy() {
     }, []);
 
     useEffect(() => {
-
         if (data.length === 0) {
             return;
         }

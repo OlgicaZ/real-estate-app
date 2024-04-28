@@ -5,13 +5,13 @@ import { PiBathtub } from "react-icons/pi";
 import { SlSizeFullscreen } from "react-icons/sl";
 
 
-export default function ProperyCard({ property }) {
+export default function ProperyCard({ property, selectedView }) {
 
     const message = `Hello, I'm interested in your listing at ${property.location.address.line}.`;
     const encodedMessage = encodeURIComponent(message);
 
     return (
-        <div className='listings-card'>
+        <div className={`${selectedView} listings-card`}>
             <div className='listings-card__image-container'>
                 {/* <img src={property.primary_photo.href} alt='property'/>  */}
                 <img src='https://d25fhp1qfwqa2h.cloudfront.net/9312166729_auto_650' alt='property' />
