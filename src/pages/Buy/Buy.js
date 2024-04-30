@@ -71,7 +71,7 @@ export default function Buy() {
 
     }, [selectedFilters, data]);
 
-    // console.log(data);
+    console.log(data);
 
     return (
         <>
