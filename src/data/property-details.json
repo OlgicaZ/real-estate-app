@@ -1,0 +1,1808 @@
+{
+    "home": {
+        "advertisers": [
+            {
+                "builder": null,
+                "office": {
+                    "phones": [
+                        {
+                            "ext": "",
+                            "number": "7863625672",
+                            "primary": true,
+                            "trackable": null,
+                            "type": "Office"
+                        }
+                    ]
+                },
+                "state_license": "",
+                "team": null,
+                "team_name": null,
+                "type": "seller"
+            }
+        ],
+        "branding": [
+            {
+                "accent_color": null,
+                "name": "Wesley Pearce",
+                "phone": null,
+                "photo": null,
+                "slogan": null,
+                "type": "Agent"
+            },
+            {
+                "accent_color": null,
+                "name": "Graber Realty Group Llc",
+                "phone": null,
+                "photo": null,
+                "slogan": null,
+                "type": "Office"
+            }
+        ],
+        "builder": null,
+        "coming_soon_date": null,
+        "community": null,
+        "consumer_advertisers": [
+            {
+                "address": null,
+                "advertiser_id": "2895023",
+                "agent_id": "3086623",
+                "broker_id": "4590542",
+                "contact_name": null,
+                "hours": null,
+                "href": "/realestateagents/Wesley-Pearce_Miami_FL_3086623",
+                "name": "Wesley Pearce",
+                "phone": null,
+                "photo": {
+                    "description": null,
+                    "href": null,
+                    "type": null
+                },
+                "show_realtor_logo": false,
+                "slogan": null,
+                "type": "Agent"
+            },
+            {
+                "address": {
+                    "city": "MIAMI",
+                    "state_code": "FL"
+                },
+                "advertiser_id": "2895023",
+                "agent_id": "3086623",
+                "broker_id": "4590542",
+                "contact_name": null,
+                "hours": null,
+                "href": null,
+                "name": "Graber Realty Group Llc",
+                "phone": "(786) 362-5672",
+                "photo": {
+                    "description": null,
+                    "href": null,
+                    "type": null
+                },
+                "show_realtor_logo": false,
+                "slogan": null,
+                "type": "Office"
+            }
+        ],
+        "description": {
+            "baths": 4,
+            "baths_1qtr": null,
+            "baths_3qtr": null,
+            "baths_consolidated": "3.5",
+            "baths_full": 3,
+            "baths_half": 1,
+            "baths_max": null,
+            "baths_min": null,
+            "beds": 3,
+            "beds_max": null,
+            "beds_min": null,
+            "garage": 1,
+            "lot_sqft": null,
+            "name": null,
+            "pool": null,
+            "rooms": null,
+            "sqft": 1452,
+            "sqft_max": null,
+            "sqft_min": null,
+            "stories": 5,
+            "sub_type": "condo",
+            "text": "Welcome to The PopMod Flat at Hyde Midtown! Featured in Luxe Interiors & Design magazine, this rare three-bedroom, four-bath, completely updated, designer corner unit is punchy, modern, luxurious, and fun! Experience spacious picture-perfect living with designer wallpaper, luxe high-end finishes and fixtures, custom window treatments, and California Closets. Impress your guests with breath-taking Biscayne Bay and Downtown Miami balcony viewsand wait until they see the adorable Instagram-ready powder room! Sleep easy in the main suite retreat with dual vanity ensuite bath, separate from the two spacious ensuite guest rooms. All surrounded by trendy Midtown Miami shops, restaurants, and gyms, with one assigned parking, 24-hour security, and flexible 30-day minimum rental allowances.",
+            "type": "condos",
+            "unit_type": null,
+            "units": null,
+            "year_built": 2018
+        },
+        "details": [
+            {
+                "category": "Bedrooms",
+                "parent_category": "Interior",
+                "text": [
+                    "Bedrooms: 3"
+                ]
+            },
+            {
+                "category": "Bathrooms",
+                "parent_category": "Interior",
+                "text": [
+                    "Total Bathrooms: 4",
+                    "Full Bathrooms: 3",
+                    "1/2 Bathrooms: 1"
+                ]
+            },
+            {
+                "category": "Interior Features",
+                "parent_category": "Interior",
+                "text": [
+                    "ClosetCabinetry",
+                    "DualSinks",
+                    "FirstFloorEntry",
+                    "LivingDiningRoom",
+                    "Bar",
+                    "Flooring: Tile",
+                    "Window Features: Blinds, Drapes, ImpactGlass"
+                ]
+            },
+            {
+                "category": "Appliances",
+                "parent_category": "Interior",
+                "text": [
+                    "Dryer",
+                    "Dishwasher",
+                    "ElectricRange",
+                    "Disposal",
+                    "Microwave",
+                    "Refrigerator",
+                    "SelfCleaningOven",
+                    "Washer"
+                ]
+            },
+            {
+                "category": "Heating and Cooling",
+                "parent_category": "Interior",
+                "text": [
+                    "Cooling Features: CentralAir",
+                    "Heating Features: Central",
+                    "Heating: Yes"
+                ]
+            },
+            {
+                "category": "Exterior and Lot Features",
+                "parent_category": "Exterior",
+                "text": [
+                    "Balcony",
+                    "SecurityHighImpactDoors",
+                    "Patio And Porch Features: Balcony, Open"
+                ]
+            },
+            {
+                "category": "Pool and Spa",
+                "parent_category": "Exterior",
+                "text": [
+                    "Pool Features: Heated"
+                ]
+            },
+            {
+                "category": "Garage and Parking",
+                "parent_category": "Exterior",
+                "text": [
+                    "Attached Garage: Yes",
+                    "Covered Spaces: 1",
+                    "Garage Spaces: 1",
+                    "Parking Features: Assigned, Attached, Garage, OneSpace"
+                ]
+            },
+            {
+                "category": "Home Features",
+                "parent_category": "Exterior",
+                "text": [
+                    "View: Bay, City",
+                    "Security Features: DoorMan, ElevatorSecured, SecuredGarageParking, LobbySecured, SecurityGuard, SmokeDetectors"
+                ]
+            },
+            {
+                "category": "Homeowners Association",
+                "parent_category": "Community",
+                "text": [
+                    "Association: Yes",
+                    "Association Amenities: BilliardRoom, BusinessCenter, Clubhouse, FitnessCenter, Pool, Sauna, SpaHotTub, TennisCourts, Elevators",
+                    "Association Fee: 2160",
+                    "Association Fee Frequency: Monthly",
+                    "Association Fee Includes: AssociationManagement, Amenities, CableTV, Internet, MaintenanceGrounds, MaintenanceStructure, Pools, RecreationFacilities, Sewer, Security, Trash, Water",
+                    "Calculated Total Monthly Association Fees: 2160",
+                    "Pets Allowed: Conditional, Yes"
+                ]
+            },
+            {
+                "category": "Multi-Unit Info",
+                "parent_category": "Community",
+                "text": [
+                    "Unit Type: Corner Unit, High Rise"
+                ]
+            },
+            {
+                "category": "Rental Info",
+                "parent_category": "Community",
+                "text": [
+                    "Application Fee: 200"
+                ]
+            },
+            {
+                "category": "Other Property Info",
+                "parent_category": "Listing",
+                "text": [
+                    "Annual Tax Amount: 15220",
+                    "Source Listing Status: Active",
+                    "County: Miami-Dade County",
+                    "Tax Year: 2023",
+                    "Source Property Type: Residential",
+                    "Property Subtype: condo",
+                    "Source Neighborhood: 3401 MIDTOWN CONDO",
+                    "Parcel Number: 01-31-25-088-2820",
+                    "Postal City: Miami",
+                    "Postal Code Plus 4: 3890",
+                    "Subdivision: 3401 MIDTOWN CONDO",
+                    "Property Subtype: Condominium",
+                    "Source System Name: C2C"
+                ]
+            },
+            {
+                "category": "Building and Construction",
+                "parent_category": "Features",
+                "text": [
+                    "Total Square Feet Living: 1452",
+                    "Year Built: 2018",
+                    "Construction Materials: Block",
+                    "Entry Level: 30",
+                    "Entry Location: 30",
+                    "Property Age: 6",
+                    "Property Attached: Yes",
+                    "Building Total Stories: 31",
+                    "House Style: Condo 5+ Stories",
+                    "Year Built Details: Resale",
+                    "Architectural Style: HighRise"
+                ]
+            }
+        ],
+        "flags": {
+            "is_coming_soon": null,
+            "is_contingent": null,
+            "is_deal_available": null,
+            "is_foreclosure": null,
+            "is_new_construction": null,
+            "is_new_listing": true,
+            "is_pending": null,
+            "is_price_excludes_land": null,
+            "is_price_reduced": null,
+            "is_senior_community": null,
+            "is_short_sale": null,
+            "is_subdivision": null
+        },
+        "floorplans": {
+            "floorplan_2d": [],
+            "floorplan_3d": [],
+            "floorplan_interactive": []
+        },
+        "hoa": {
+            "fee": 2160
+        },
+        "home_tours": {
+            "virtual_tours": [
+                {
+                    "category": "video",
+                    "href": "https://www.youtube.com/watch?v=UuR9FDWsmO8",
+                    "tags": null,
+                    "type": "youtube"
+                }
+            ]
+        },
+        "href": "https://www.realtor.com/realestateandhomes-detail/121-NE-34th-St-Unit-3008_Miami_FL_33137_M52145-93075",
+        "last_price_change_amount": null,
+        "lead_attributes": {
+            "disclaimer_text": null,
+            "is_tcpa_message_enabled": null,
+            "lead_type": "co_broke",
+            "opcity_lead_attributes": {
+                "cashback_enabled": false,
+                "flip_the_market_enabled": false,
+                "phones": null,
+                "smarthome_enabled": false
+            },
+            "ready_connect_mortgage": {
+                "show_contact_a_lender": true,
+                "show_veterans_united": true
+            },
+            "show_contact_an_agent": true,
+            "show_lead_form": true,
+            "show_text_leads": true
+        },
+        "list_date": "2024-05-15T20:14:53Z",
+        "list_price": 1225000,
+        "list_price_max": null,
+        "list_price_min": null,
+        "listing_id": "2967344646",
+        "local": {
+            "flood": {
+                "fema_zone": [
+                    "X (unshaded)"
+                ],
+                "flood_factor_score": 1
+            }
+        },
+        "location": {
+            "address": {
+                "city": "Miami",
+                "coordinate": {
+                    "lat": 25.808718,
+                    "lon": -80.1921
+                },
+                "country": "USA",
+                "line": "121 NE 34th St Unit 3008",
+                "postal_code": "33137",
+                "state": "Florida",
+                "state_code": "FL",
+                "street_direction": "NE",
+                "street_name": "34th",
+                "street_number": "121",
+                "street_post_direction": null,
+                "street_suffix": "St",
+                "unit": "Unit 3008",
+                "validation_code": "111"
+            },
+            "city": {
+                "county": "Miami-Dade",
+                "county_needed_for_uniq": false,
+                "slug_id": "Miami_FL"
+            },
+            "county": {
+                "fips_code": "12086",
+                "name": "Miami-Dade"
+            },
+            "cross_street": null,
+            "driving_directions": null,
+            "neighborhoods": [
+                {
+                    "geo_statistics": {
+                        "housing_market": {
+                            "by_prop_type": [
+                                {
+                                    "attributes": {
+                                        "median_days_on_market": 103,
+                                        "median_listing_price": 750000,
+                                        "median_lot_size": 5250,
+                                        "median_price_per_sqft": 797,
+                                        "median_sold_price": 595725
+                                    },
+                                    "type": "home"
+                                }
+                            ],
+                            "hot_market_badge": "Other",
+                            "local_hotness_score": 1.985458613,
+                            "median_days_on_market": 122,
+                            "median_listing_price": 895000,
+                            "median_price_per_sqft": 774,
+                            "median_sold_price": 675725,
+                            "national_hotness_score": 5.781883731
+                        }
+                    },
+                    "level": "neighborhood",
+                    "name": "Wynwood",
+                    "recommended": {
+                        "geos": [
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 799000
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 770000
+                                    }
+                                },
+                                "name": "Brickell",
+                                "slug_id": "Brickell_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 831997
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 799500
+                                    }
+                                },
+                                "name": "Edgewater",
+                                "slug_id": "Edgewater_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 649000
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 626500
+                                    }
+                                },
+                                "name": "Miami Central Business District",
+                                "slug_id": "Miami-Central-Business-District_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 1037500
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 1010000
+                                    }
+                                },
+                                "name": "Park West",
+                                "slug_id": "Park-West_Miami_FL"
+                            }
+                        ]
+                    },
+                    "slug_id": "Wynwood_Miami_FL"
+                },
+                {
+                    "geo_statistics": {
+                        "housing_market": {
+                            "by_prop_type": [
+                                {
+                                    "attributes": {
+                                        "median_days_on_market": 84,
+                                        "median_listing_price": 820000,
+                                        "median_lot_size": 5004,
+                                        "median_price_per_sqft": 774,
+                                        "median_sold_price": 680000
+                                    },
+                                    "type": "home"
+                                }
+                            ],
+                            "hot_market_badge": "Other",
+                            "local_hotness_score": 0.1957494407,
+                            "median_days_on_market": 85,
+                            "median_listing_price": 820000,
+                            "median_price_per_sqft": 748,
+                            "median_sold_price": 680000,
+                            "national_hotness_score": 4.614691302
+                        }
+                    },
+                    "level": "macro_neighborhood",
+                    "name": "Midtown Miami",
+                    "recommended": {
+                        "geos": [
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 799000
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 770000
+                                    }
+                                },
+                                "name": "Brickell",
+                                "slug_id": "Brickell_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 831997
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 799500
+                                    }
+                                },
+                                "name": "Edgewater",
+                                "slug_id": "Edgewater_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 649000
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 626500
+                                    }
+                                },
+                                "name": "Miami Central Business District",
+                                "slug_id": "Miami-Central-Business-District_Miami_FL"
+                            },
+                            {
+                                "city": "Miami",
+                                "geo_statistics": {
+                                    "housing_market": {
+                                        "by_prop_type": [
+                                            {
+                                                "attributes": {
+                                                    "median_listing_price": 1037500
+                                                },
+                                                "type": "home"
+                                            }
+                                        ],
+                                        "median_listing_price": 1010000
+                                    }
+                                },
+                                "name": "Park West",
+                                "slug_id": "Park-West_Miami_FL"
+                            }
+                        ]
+                    },
+                    "slug_id": "Midtown-Miami_Miami_FL"
+                }
+            ],
+            "postal_code": {
+                "geo_statistics": {
+                    "housing_market": {
+                        "hot_market_badge": "Other"
+                    }
+                },
+                "slug_id": "33137"
+            },
+            "street_view_metadata_url": "https://maps.googleapis.com/maps/api/streetview/metadata?channel=rdc-streetview&client=gme-movesalesinc&location=121%20NE%2034th%20St%20Unit%203008%2C%20Miami%2C%20FL%2033137&size=640x480&source=outdoor&signature=pRtDXsqm1z2gIJqhlq4tmvVsu80=",
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=121%20NE%2034th%20St%20Unit%203008%2C%20Miami%2C%20FL%2033137&size=640x480&source=outdoor&signature=cECYgbnKGefYgymlYxbbpfYI2Yk="
+        },
+        "matterport": null,
+        "move_in_date": null,
+        "open_houses": null,
+        "other_listings": {
+            "rdc": [
+                {
+                    "listing_id": "2967344646",
+                    "status": "for_sale"
+                },
+                {
+                    "listing_id": "2924992145",
+                    "status": "sold"
+                },
+                {
+                    "listing_id": "2913012000",
+                    "status": "off_market"
+                },
+                {
+                    "listing_id": "2915931530",
+                    "status": "off_market"
+                },
+                {
+                    "listing_id": "653464994",
+                    "status": "off_market"
+                }
+            ]
+        },
+        "permalink": "121-NE-34th-St-Unit-3008_Miami_FL_33137_M52145-93075",
+        "photo_count": 65,
+        "photos": [
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m849705521s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.8310949802398682
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2584736868s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.8732953667640686
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9837888479232788
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1020053094s.jpg",
+                "tags": [
+                    {
+                        "label": "kitchen",
+                        "probability": 0.9998100399971008
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1090913366s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9980789422988892
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m4241273196s.jpg",
+                "tags": [
+                    {
+                        "label": "floor_plan",
+                        "probability": 0.9993834495544434
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2373901881s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9940432906150818
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.8484964966773987
+                    },
+                    {
+                        "label": "water_view",
+                        "probability": 0.3578512966632843
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m902850912s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.999727189540863
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9991400241851807
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2443894348s.jpg",
+                "tags": [
+                    {
+                        "label": "corridor",
+                        "probability": 0.9998301267623901
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2448943544s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 0.9999964237213135
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2796924547s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 0.9995400905609131
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3510614729s.jpg",
+                "tags": [
+                    {
+                        "label": "corridor",
+                        "probability": 0.9775179028511047
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2995051139s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9975603818893433
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m555013399s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9999359846115112
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m417201401s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.6056312322616577
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3292590330s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9524039030075073
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2429578800s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9888995885848999
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m732518941s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.999996542930603
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2086601844s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9999943971633911
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1524888272s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9381327629089355
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1334525068s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9912980794906616
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3340547629s.jpg",
+                "tags": [
+                    {
+                        "label": "home_office",
+                        "probability": 0.992800235748291
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2962198701s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9966429471969604
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3469291349s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9972139000892639
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3691545206s.jpg",
+                "tags": [
+                    {
+                        "label": "dining_room",
+                        "probability": 0.9998781681060791
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3858667364s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.7923906445503235
+                    },
+                    {
+                        "label": "door",
+                        "probability": 0.5264740586280823
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9428486227989197
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2904789090s.jpg",
+                "tags": [
+                    {
+                        "label": "other_interiors",
+                        "probability": 0.634763240814209
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m357124176s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.5977957844734192
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2596140642s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9437039494514465
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1118157074s.jpg",
+                "tags": [
+                    {
+                        "label": "kitchen",
+                        "probability": 0.9999967813491821
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1952776051s.jpg",
+                "tags": [
+                    {
+                        "label": "kitchen",
+                        "probability": 0.9990400671958923
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3393009348s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9749480485916138
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9931961297988892
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1822429593s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9993786811828613
+                    },
+                    {
+                        "label": "patio",
+                        "probability": 0.9733790755271912
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9995726943016052
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m4147278253s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9554006457328796
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9841997623443604
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m335637661s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9980584979057312
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.992113471031189
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3498319802s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9980977177619934
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9991201758384705
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m4007073838s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9983103275299072
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9983236193656921
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3205229156s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.876339852809906
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1559995738s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.999998927116394
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2741767424s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.9999963045120239
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3877298328s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.9349892735481262
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2940780593s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 1
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2199378441s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.9993969202041626
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3377647524s.jpg",
+                "tags": [
+                    {
+                        "label": "living_room",
+                        "probability": 0.520629346370697
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3330751560s.jpg",
+                "tags": [
+                    {
+                        "label": "home_office",
+                        "probability": 0.5093986988067627
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m754097063s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 0.999661922454834
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m794360340s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 0.9935107827186584
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3809202837s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.999998927116394
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2035599370s.jpg",
+                "tags": [
+                    {
+                        "label": "bedroom",
+                        "probability": 0.9999964237213135
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m215210259s.jpg",
+                "tags": [
+                    {
+                        "label": "bathroom",
+                        "probability": 1
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m19768490s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9958484172821045
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9962823987007141
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1568614820s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.99128657579422
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.9761222004890442
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m772364384s.jpg",
+                "tags": [
+                    {
+                        "label": "balcony",
+                        "probability": 0.9898724555969238
+                    },
+                    {
+                        "label": "porch",
+                        "probability": 0.8238308429718018
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3122313413s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9975441098213196
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9636893272399902
+                    },
+                    {
+                        "label": "water_view",
+                        "probability": 0.32074812054634094
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2031642641s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9957922697067261
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9829656481742859
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m166029197s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.999935507774353
+                    },
+                    {
+                        "label": "water_view",
+                        "probability": 0.9823367595672607
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1711768500s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9994756579399109
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9408351182937622
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m3118592636s.jpg",
+                "tags": [
+                    {
+                        "label": "condo",
+                        "probability": 0.998029887676239
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1714131659s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.8126621842384338
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9993728995323181
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2216266721s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9968851208686829
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9997768998146057
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m4068963262s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.5921565294265747
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9362481236457825
+                    },
+                    {
+                        "label": "swimming_pool",
+                        "probability": 0.813981831073761
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m181632350s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9400311708450317
+                    },
+                    {
+                        "label": "swimming_pool",
+                        "probability": 0.9966752529144287
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m640826387s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9981046915054321
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2566696697s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9998164772987366
+                    },
+                    {
+                        "label": "swimming_pool",
+                        "probability": 0.9904995560646057
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m2222617922s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9732046127319336
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9957231283187866
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            },
+            {
+                "description": null,
+                "href": "https://ap.rdcpix.com/aecd8664caa88d1d50ecff032cc5305fl-m1965355012s.jpg",
+                "tags": [
+                    {
+                        "label": "aerial_view",
+                        "probability": 0.9999176263809204
+                    },
+                    {
+                        "label": "condo",
+                        "probability": 0.9952185750007629
+                    }
+                ],
+                "title": null,
+                "type": "realtordotcom_mls_listing_image"
+            }
+        ],
+        "price_per_sqft": 844,
+        "products": {
+            "brand_name": "essentials",
+            "products": [
+                "core.agent",
+                "core.broker",
+                "co_broke"
+            ]
+        },
+        "property_history": [
+            {
+                "date": "2024-05-15",
+                "event_name": "Listed",
+                "price": 1225000,
+                "price_sqft": 843.66391184573,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2021-02-13",
+                "event_name": "Listing removed",
+                "price": 785000,
+                "price_sqft": 547.0383275261324,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2021-01-19",
+                "event_name": "Sold",
+                "price": 674000,
+                "price_sqft": 469.6864111498258,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2020-09-10",
+                "event_name": "Sold",
+                "price": 575000,
+                "price_sqft": 400.69686411149826,
+                "source_name": "Public Record"
+            },
+            {
+                "date": "2020-08-30",
+                "event_name": "Listing removed",
+                "price": 4500,
+                "price_sqft": 3.1358885017421603,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2019-11-25",
+                "event_name": "Listing removed",
+                "price": 4700,
+                "price_sqft": null,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2019-04-11",
+                "event_name": "Listed for rent",
+                "price": 4700,
+                "price_sqft": null,
+                "source_name": "MiamiMLS"
+            },
+            {
+                "date": "2018-11-01",
+                "event_name": "Sold",
+                "price": 995833,
+                "price_sqft": 693.9602787456446,
+                "source_name": "Public Record"
+            }
+        ],
+        "property_id": "5214593075",
+        "provider_url": null,
+        "schools": {
+            "schools": [
+                {
+                    "assigned": true,
+                    "distance_in_miles": 0.7,
+                    "education_levels": [
+                        "elementary"
+                    ],
+                    "funding_type": "public",
+                    "grades": [
+                        "K",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "id": "0717155631",
+                    "name": "Eneida M. Hartner Elementary School",
+                    "parent_rating": 4,
+                    "rating": 4,
+                    "review_count": 6,
+                    "slug": "Eneida-M.-Hartner-Elementary-School-0717155631",
+                    "slug_id": "Eneida-M.-Hartner-Elementary-School-0717155631",
+                    "student_count": 378,
+                    "student_teacher_ratio": 16.3
+                },
+                {
+                    "assigned": true,
+                    "distance_in_miles": 0.7,
+                    "education_levels": [
+                        "middle"
+                    ],
+                    "funding_type": "public",
+                    "grades": [
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "id": "0717208651",
+                    "name": "Jose De Diego Middle School",
+                    "parent_rating": 3,
+                    "rating": 1,
+                    "review_count": 9,
+                    "slug": "Jose-De-Diego-Middle-School-0717208651",
+                    "slug_id": "Jose-De-Diego-Middle-School-0717208651",
+                    "student_count": 849,
+                    "student_teacher_ratio": 15.5
+                },
+                {
+                    "assigned": true,
+                    "distance_in_miles": 1.7,
+                    "education_levels": [
+                        "high"
+                    ],
+                    "funding_type": "public",
+                    "grades": [
+                        "9",
+                        "10",
+                        "11",
+                        "12"
+                    ],
+                    "id": "0717208711",
+                    "name": "Booker T. Washington Senior High School",
+                    "parent_rating": 3,
+                    "rating": 3,
+                    "review_count": 0,
+                    "slug": "Booker-T.-Washington-Senior-High-School-0717208711",
+                    "slug_id": "Booker-T.-Washington-Senior-High-School-0717208711",
+                    "student_count": 970,
+                    "student_teacher_ratio": 14.5
+                },
+                {
+                    "assigned": null,
+                    "distance_in_miles": 0.4,
+                    "education_levels": [
+                        "elementary",
+                        "middle"
+                    ],
+                    "funding_type": "private",
+                    "grades": [
+                        "K",
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "id": "0717410851",
+                    "name": "Metropolitan International School of Miami",
+                    "parent_rating": 5,
+                    "rating": null,
+                    "review_count": 5,
+                    "slug": "Metropolitan-International-School-of-Miami-0717410851",
+                    "slug_id": "Metropolitan-International-School-of-Miami-0717410851",
+                    "student_count": null,
+                    "student_teacher_ratio": null
+                }
+            ],
+            "total": 4
+        },
+        "source": {
+            "disclaimer": {
+                "href": null,
+                "text": "©2024  Miami Association of REALTORS®. All rights reserved."
+            },
+            "id": "FLFL",
+            "listing_id": "A11587899",
+            "name": "MiamiMLS",
+            "plan_id": null,
+            "raw": {
+                "style": "Condo 5+ Stories",
+                "tax_amount": 15220
+            },
+            "spec_id": null,
+            "type": "mls"
+        },
+        "status": "for_sale",
+        "suppression_flags": {
+            "has_suppress_on_move_dot_com": true
+        },
+        "tags": [
+            "central_air",
+            "central_heat",
+            "city_view",
+            "community_clubhouse",
+            "community_outdoor_space",
+            "community_security_features",
+            "dining_room",
+            "dishwasher",
+            "pets_allowed",
+            "recreation_facilities",
+            "tennis_court",
+            "view",
+            "washer_dryer",
+            "two_or_more_stories",
+            "garage_1_or_more",
+            "waterfront",
+            "rental_property",
+            "ensuite",
+            "shopping"
+        ],
+        "tax_history": [
+            {
+                "assessment": {
+                    "building": 786785,
+                    "land": null,
+                    "total": 786785
+                },
+                "tax": 15945,
+                "year": 2022
+            },
+            {
+                "assessment": {
+                    "building": 749319,
+                    "land": null,
+                    "total": 749319
+                },
+                "tax": 16462,
+                "year": 2021
+            },
+            {
+                "assessment": {
+                    "building": 749319,
+                    "land": null,
+                    "total": 749319
+                },
+                "tax": 16308,
+                "year": 2020
+            },
+            {
+                "assessment": {
+                    "building": 841931,
+                    "land": null,
+                    "total": 841931
+                },
+                "tax": 16219,
+                "year": 2019
+            },
+            {
+                "assessment": {
+                    "building": null,
+                    "land": null,
+                    "total": 18966
+                },
+                "tax": 947,
+                "year": 2018
+            },
+            {
+                "assessment": {
+                    "building": null,
+                    "land": 31310,
+                    "total": 31310
+                },
+                "tax": 926,
+                "year": 2017
+            },
+            {
+                "assessment": {
+                    "building": null,
+                    "land": null,
+                    "total": 15675
+                },
+                "tax": 456,
+                "year": 2016
+            },
+            {
+                "assessment": {
+                    "building": null,
+                    "land": null,
+                    "total": 14250
+                },
+                "tax": 316,
+                "year": 2015
+            }
+        ],
+        "unit_count": null,
+        "units": null,
+        "videos": null,
+        "virtual_tours": [
+            {
+                "href": "https://www.youtube.com/watch?v=UuR9FDWsmO8",
+                "type": null
+            }
+        ]
+    }
+}
