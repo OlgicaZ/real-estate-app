@@ -16,6 +16,7 @@ export default function Buy() {
     const [selectedView, setSelectedView] = useState('grid');
     const toggleView = (view) => { setSelectedView(view) };
 
+    const [numberListings, setNumberListings] = useState(0);
     const [data, setData] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
 
@@ -55,6 +56,7 @@ export default function Buy() {
     useEffect(() => {
         setData(jsonData.home_search.results);
         setFilteredData(jsonData.home_search.results);
+        setNumberListings(jsonData.home_search.total);
     }, []);
 
     useEffect(() => {
@@ -94,6 +96,7 @@ export default function Buy() {
                     data={filteredData}
                     selectedFilters={selectedFilters}
                     clearFilters={clearFilters}
+                    numberListings={numberListings}
                 />
             </main>
             <Footer />
