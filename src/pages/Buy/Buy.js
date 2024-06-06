@@ -66,12 +66,13 @@ export default function Buy() {
 
         if ((selectedFilters.propertyType.size === 0) && (selectedFilters.priceRange.size === 0) && (selectedFilters.numberBedrooms.size === 0) && (selectedFilters.numberBathrooms.size === 0)) {
             setFilteredData(data);
+            setNumberListings(jsonData.home_search.total)
         } else {
             const filtered = filterData(data, selectedFilters);
             setFilteredData(filtered);
+            setNumberListings(filtered.length)
         }
-
-    }, [selectedFilters, data]);
+    }, [selectedFilters, data, numberListings]);
 
     console.log(data);
 
